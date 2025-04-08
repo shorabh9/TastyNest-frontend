@@ -1,4 +1,5 @@
 import React from "react";
+import ToniImage from './assets/Toni.jpg';
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
       
       <div className="flex flex-col items-center max-w-4xl p-6 bg-white shadow-lg rounded-2xl md:flex-row">
         <img
-          src="src/assets/Toni.jpg"
+           src={ToniImage}
           alt="Founder Shorabh Singh"
           className="object-cover w-48 h-48 mb-4 border-4 border-orange-500 rounded-full shadow-md md:mb-0 md:mr-6"
         />
